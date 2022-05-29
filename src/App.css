@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+/* Aboutページ */
+.aboutTop {
+    background-image: url(images/topImage.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);  
+    background-position: 50%;
+    width: 100vw;
+    height: 70Vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.topFont {
+    color: azure;
+    padding: 30% 5%;
+    text-shadow: 1px 2px 3px #bdbdbd; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.aboutProf {
+    align-items: center;
+    text-align: center;
+    padding: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.aboutProf h3 {
+    text-align: center;
+    margin: 8%;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutProf img {
+    width: 90vw;
+    margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profFont {
+    text-align: left;
+}
+
+.profFont h4 { 
+    font-weight: bold;
+    margin: 5% 0;
 }

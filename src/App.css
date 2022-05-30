@@ -1,42 +1,215 @@
+/* Homeページ */
+@media screen and (max-width:768px){
+
+    .homeTop {
+        background-image: url(images/topImage.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(35, 35, 35);  
+        background-position: 50%;
+        width: 100vw;
+        height: 70Vh;
+    }
+
+    .topFont {
+        color: azure;
+        padding: 30% 5%;
+        text-shadow: 1px 2px 3px #42424277; 
+    }
+
+    .homeProf {
+        align-items: center;
+        text-align: center;
+        padding: 5%;
+        margin-bottom: 15%;
+    }
+
+    .homeProf h5 {
+        font-weight: bold;
+        text-decoration: underline;
+        border-bottom: 5;
+    }
+
+    .homeProf h3 {
+        text-align: center;
+        margin: 8%;
+        font-weight: bold;
+    }
+
+    .homeProf img {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .profFont {
+        text-align: left;
+    }
+
+    .profFont h4 { 
+        font-weight: bold;
+        margin: 5% 0;
+    }
+}
+
+@media screen and (min-width:769px){
+
+    .homeTop {
+        background-image: url(images/topImage.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: rgb(40, 40, 40);  
+        background-position: 75%;
+        height: 90Vh;
+    }
+
+    .topFont {
+        color: azure;
+        padding: 20% 5%;
+        text-shadow: 1px 2px 3px #42424277; 
+    }
+
+    .topFont h3 {
+        font-size: 75px;
+    }
+
+    .topFont h1 {
+        font-size: 60px;
+    }
+
+    .topFont h3 {
+        font-size: 25px;
+    }
+
+    .homeProf {
+        align-items: center;
+        text-align: center;
+        padding: 5%;
+        margin-bottom: 10%;
+    }
+
+    .profTitle {
+        margin-bottom: 5%;
+        font-weight: bold;
+    }
+
+    .profTitle h5 {
+        text-decoration: underline;
+    }
+
+    .profContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profContainer img {
+        width: 40vw;
+        margin: 0 auto;
+    }
+
+    .profFont {
+        text-align: left;
+        line-height: 250%;
+        width: 40vw;
+    }
+
+    .profFont h4 { 
+        font-weight: bold;
+        margin: 5% 0;
+    }
+
+}
+
 /* Aboutページ */
-.aboutTop {
-    background-image: url(images/topImage.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);  
-    background-position: 50%;
-    width: 100vw;
-    height: 70Vh;
-}
-
-.topFont {
-    color: azure;
-    padding: 30% 5%;
-    text-shadow: 1px 2px 3px #bdbdbd; 
-}
-
-.aboutProf {
-    align-items: center;
-    text-align: center;
-    padding: 5%;
-}
-
-.aboutProf h3 {
-    text-align: center;
-    margin: 8%;
+.aboutPie {
+    height: 100%;
     font-weight: bold;
+    text-align: center;
 }
 
-.aboutProf img {
-    width: 90vw;
+
+/* Contactページ */
+.contactMap {
+    text-align: center;
+    align-items: center;
+    margin: 3% 0% 0;
+}
+
+.contactMap h3 {
+    padding: 3%;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+.contactDetail {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 15%;
+}
+
+.contactDetail a {
+    line-height: 3;
+}
+
+/* Stclページ */
+.sctl-wrap {
+    line-height: 1.85rem;
+}
+
+.sctl-wrap h3 {
+    background-color: #caf2f2;
+    padding: 3%;
+}
+
+.sctl-privacy {
+    padding-bottom: 5%;
+}
+
+.sctl-privacy h3 {
+    margin-bottom: 3%;
+}
+
+.sctl-privacy ol li:nth-child(4n) {
+    margin-bottom: 2rem;
+    padding-right: 3%;
+}
+
+
+.sctl-privacy p {
+    padding-right: 3%;
+}
+
+.sctl-table table{
     margin: 0 auto;
 }
 
-.profFont {
-    text-align: left;
+.sctl-table table th {
+    white-space: nowrap;
 }
 
-.profFont h4 { 
-    font-weight: bold;
-    margin: 5% 0;
+.sctl-table table th,td {
+    padding: 1rem;
+}
+
+.sctl-privacy ol li ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* フッター */
+.globalFooter {
+    text-align: center;
+    background-color: #17a2b8;
+    color: white;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+.globalFooter a {
+    font-size: 80%;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid azure;
+    padding: 0%;
 }

@@ -13,7 +13,7 @@
 
     .topFont {
         color: azure;
-        padding: 30% 5%;
+        padding: 20% 5%;
         text-shadow: 1px 2px 3px #42424277; 
     }
 
@@ -21,7 +21,6 @@
         align-items: center;
         text-align: center;
         padding: 5%;
-        margin-bottom: 15%;
     }
 
     .homeProf h5 {
@@ -48,6 +47,30 @@
     .profFont h4 { 
         font-weight: bold;
         margin: 5% 0;
+    }
+
+    .profInstagram {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .profInstagram a {
+        color: rgb(241, 50, 215);
+    }
+
+    .profInstagram {
+        margin: 8% 5% 0;
+    }
+
+    .homeContact {
+        margin-bottom: 30px;
+        border-top: 2.5px solid rgb(176, 176, 176);
+        padding: 30px 1%;
+        background-color: rgb(234, 240, 241);
+    }
+
+    .homeContact h5 {
+        font-weight: bold;
     }
 }
 
@@ -118,6 +141,29 @@
         margin: 5% 0;
     }
 
+    .profFont p {
+        line-height: 120%;
+    }
+
+    .profInstagram a {
+        color: rgb(241, 50, 215);
+    }
+
+    .profInstagram {
+        margin: 7% 0% 10% 0%;
+    }
+
+    .homeContact {
+        margin-bottom: 30px;
+        border-top: 2.5px solid rgb(176, 176, 176);
+        padding: 30px 1%;
+        background-color: rgb(234, 240, 241);
+    }
+
+    .homeContact h5 {
+        font-weight: bold;
+    }
+
 }
 
 /* Aboutページ */
@@ -143,7 +189,7 @@
 
 .contactDetail {
     text-align: center;
-    margin-bottom: 30%;
+    margin-bottom: 60px;
 }
 
 .contactDetail a {

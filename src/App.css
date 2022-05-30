@@ -144,7 +144,7 @@
 .contactDetail {
     text-align: center;
     padding-top: 3%;
-    padding-bottom: 15%;
+    margin-bottom: 15%;
 }
 
 .contactDetail a {
@@ -163,6 +163,7 @@
 
 .sctl-privacy {
     padding-bottom: 5%;
+    margin-bottom: 15%;
 }
 
 .sctl-privacy h3 {

@@ -8,8 +8,11 @@ const Home = () => {
         <div className='homeTop'>
             <div className='topFont'>
                 <h3>うさ個展</h3>
-                <h1>いつか逢えるとき</h1>
-                <h6>2022年 6月6日（月）〜 6月27日（月）</h6>
+                <h1>いつか逢えるとき</h1> <br/>
+                <h6>
+                    2022年 6月6日（月）〜 6月27日（月） <br/>
+                    &nbsp;&nbsp;&nbsp;11:00~18:00 （最終日17時まで）
+                </h6>
             </div>
         </div>
         <div className='homeProf'>

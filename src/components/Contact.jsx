@@ -28,7 +28,8 @@ const Contact = () => {
             MAIL : museslamu@miracle.ocn.ne.jp
             </a> <br /><br />
         </div>
-        ＜土日、祝 休廊＞
+        営業時間 : 12:00 ~ 17:00 ＜土日、祝 休廊＞ <br />
+        <small>展示会等により営業時間等変更する場合がございます</small>
       </div>
       
       

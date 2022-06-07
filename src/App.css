@@ -1,3 +1,8 @@
+/* Headerページ */
+.globalHeader a {
+    color: azure;
+}
+
 /* Homeページ */
 @media screen and (max-width:768px){
 

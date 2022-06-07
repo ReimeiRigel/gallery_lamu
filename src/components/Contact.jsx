@@ -24,11 +24,12 @@ const Contact = () => {
           <a href="tel:0663446766"> < BsTelephoneForwardFill size={50} color={'#31aedb'}/> <br />
             TEL : 06-6344-6766
             </a> <br />
+            FAX : 06-6344-7603<br /><br />
             <a href="mailto:museslamu@miracle.ocn.ne.jp"> < BsEnvelopeFill size={50} color={'#31aedb'}/> <br />
             MAIL : museslamu@miracle.ocn.ne.jp
             </a> <br /><br />
         </div>
-        営業時間 : 12:00 ~ 17:00 ＜土日、祝 休廊＞ <br />
+        営業時間 : 11:00 ~ 18:00 ＜土日、祝 休廊＞ <br />
         <small>展示会により営業時間等変更する場合がございます</small>
       </div>
       

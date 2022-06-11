@@ -18,7 +18,7 @@
 
     .topFont {
         color: azure;
-        padding: 20% 5%;
+        padding: 15% 7%;
         text-shadow: 1px 2px 3px #42424277; 
     }
 
@@ -181,6 +181,15 @@
         padding-bottom: 75px;
     }
 
+    .aboutFont {
+        text-align: left;
+        padding-left: 3%;
+    }
+
+    .aboutFont h5 {
+        line-height: 140%;
+    }
+
     .aboutPie h1 {
         padding: 1% 2% 0%;
         border-bottom: 1px solid #d7e7e9;
@@ -242,7 +251,7 @@
 
 .contactDetail {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .contactDetail a {

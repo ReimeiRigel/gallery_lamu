@@ -24,7 +24,7 @@ const Contact = () => {
           <a href="tel:0663446766"> < BsTelephoneForwardFill size={50} color={'#31aedb'}/> <br />
             TEL : 06-6344-6766
             </a> <br />
-            FAX : 06-6344-7603<br /><br />
+            TEL : 06-6344-7603 (Fax兼)<br /><br />
             <a href="mailto:museslamu@miracle.ocn.ne.jp"> < BsEnvelopeFill size={50} color={'#31aedb'}/> <br />
             MAIL : museslamu@miracle.ocn.ne.jp
             </a> <br /><br />
